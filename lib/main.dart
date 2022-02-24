@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Home page'),
+      home: MyButton(),
     );
   }
 }
@@ -19,8 +19,41 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar( title: Text(this.title), ),
-      body: Center( child: Image.asset("assets/image1.png")),
+      appBar: AppBar(title: Text(this.title),),
+      body: Center( child: Icon(Icons.email)),
+    );
+  }
+}
+
+class MyButton extends StatelessWidget {
+  MyButton({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: const BoxDecoration(
+        border: Border(
+          top: BorderSide(width: 1.0, color: Colors.red),
+          left: BorderSide(width: 1.0, color: Colors.red),
+          right: BorderSide(width: 1.0, color: Colors.red),
+          bottom: BorderSide(width: 1.0, color: Colors.red),
+        ),
+      ),
+      child: Container(
+        padding: const
+        EdgeInsets.symmetric(horizontal: 20.0, vertical: 2.0),
+        decoration: const BoxDecoration(
+          border: Border(
+            top: BorderSide(width: 1.0, color: Colors.red),
+            left: BorderSide(width: 1.0, color: Colors.red),
+            right: BorderSide(width: 1.0, color: Colors.red),
+            bottom: BorderSide(width: 1.0, color: Colors.red),
+          ),
+          color: Colors.white,
+        ),
+        child: Center(
+          child: const Text('Button demo', style: TextStyle(color: Colors.black)),
+      ),
+      ),
     );
   }
 }
