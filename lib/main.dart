@@ -19,8 +19,8 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar( title: Text(this.title), ),
-      body: Center( child: Image.asset("assets/image1.png")),
+      appBar: AppBar(title: Text(this.title),),
+      body: Center( child: Icon(Icons.email)),
     );
   }
 }
