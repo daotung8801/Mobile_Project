@@ -1,16 +1,14 @@
-# flutter_project
+# Introduction
 
-A new Flutter project.
+This is repo of Dao Xuan Tung from class INT3120_20 mobile UET.
 
-## Getting Started
+Name: Dao Xuan Tung
+Student ID: 19021385
 
-This project is a starting point for a Flutter application.
+## Week 1 tasks done:
 
-A few resources to get you started if this is your first Flutter project:
+I. Install flutter SDK, Android Studio, setting flutter and dart plugin for Android Studio.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+II. Creat and run first Flutter Project demo (Hello World).  
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+III. Read references, test and run the sample code from Task 1 to task 11.
