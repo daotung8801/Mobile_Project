@@ -6,7 +6,7 @@ Name: Dao Xuan Tung.
 
 Student ID: 19021385.
 
-## Week 1 tasks done:
+## Week 1:
 
 Task 2: Install Flutter on Window
 ![image](https://user-images.githubusercontent.com/56082813/155702570-82102619-a132-4e4b-87c7-324f455c0d5e.png)
