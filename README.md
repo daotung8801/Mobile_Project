@@ -43,3 +43,17 @@ Task 10: Statefulwidget in Flutter
 Task 11: ScopedModel in Flutter
 ![image](https://user-images.githubusercontent.com/56082813/155703926-4277f645-4aee-41c1-b210-6e28684a7031.png)
 
+## Week 2:
+Task12: Navigator and Routing
+![image](https://user-images.githubusercontent.com/56082813/156707449-be0489bc-b2fe-4562-b44b-23b30aa28e63.png)
+
+![image](https://user-images.githubusercontent.com/56082813/156707504-e3836c45-dd90-48e9-82a4-29a29b4d31fd.png)
+
+
+Task13: Animation
+![image](https://user-images.githubusercontent.com/56082813/156707605-be55b456-398f-4051-aaa3-89adc8eb31db.png)
+
+Task14: Code with native Android
+
+
+Task16: Package
