@@ -1,0 +1,15 @@
+{
+   "@@last_modified": "2019-04-19T02:04:09.627551",
+   "title": "Bài 19",
+   "@title": {
+      "description": "Tiêu đề cho ứng dụng bài 19",
+      "type": "text",
+      "placeholders": {}
+   },
+   "message": "Xin chào thế giới",
+   "@message": {
+      "description": "Tin nhắn cho ứng dụng bài 19",
+      "type": "text",
+      "placeholders": {}
+   }
+}
