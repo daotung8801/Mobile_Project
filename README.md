@@ -57,17 +57,15 @@ Task 13: Animation
   
   
 Task 14: Code with native Android
-- Part 1:
-![image](https://user-images.githubusercontent.com/56082813/157423476-45ffd8f1-c155-4f39-a87b-b0cf52bdb5e8.png)
+- Part 1: ![image](https://user-images.githubusercontent.com/56082813/157423476-45ffd8f1-c155-4f39-a87b-b0cf52bdb5e8.png)
 
-- Part 2:
-![image](https://user-images.githubusercontent.com/56082813/157423518-f18cb95b-047b-4721-99a9-8aafa403219a.png)
+- Part 2: ![image](https://user-images.githubusercontent.com/56082813/157423518-f18cb95b-047b-4721-99a9-8aafa403219a.png)
 
 
 Task 16: Package
-![image](https://user-images.githubusercontent.com/56082813/157423611-f18c6e73-7f9e-4ba5-a7d9-246a1f3a6db5.png)
+- Part 1: ![image](https://user-images.githubusercontent.com/56082813/157423611-f18c6e73-7f9e-4ba5-a7d9-246a1f3a6db5.png)
 
-![image](https://user-images.githubusercontent.com/56082813/157423653-c7cb0e77-1de8-429d-a126-c64bef4b5450.png)
+- Part 2: ![image](https://user-images.githubusercontent.com/56082813/157423653-c7cb0e77-1de8-429d-a126-c64bef4b5450.png)
 
 
 ## Week 3:
@@ -78,9 +76,9 @@ Task 17: Rest API
 
 
 Task 19: Change language
-![image](https://user-images.githubusercontent.com/56082813/157425975-e9696037-f8ab-49b0-b5aa-eaf6e1f60a17.png)
+- Part 1: ![image](https://user-images.githubusercontent.com/56082813/157425975-e9696037-f8ab-49b0-b5aa-eaf6e1f60a17.png)
 
-![image](https://user-images.githubusercontent.com/56082813/157425999-503fd86b-5641-453c-8b59-5fb4d0178c7d.png)
+- Part 2: ![image](https://user-images.githubusercontent.com/56082813/157425999-503fd86b-5641-453c-8b59-5fb4d0178c7d.png)
 
 
 Task 20: Debugging
