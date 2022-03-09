@@ -1,106 +1,67 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:intl/intl.dart';
 
-import 'generated/intl/messages_all.dart';
-
-void main() => runApp(MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Localizations Sample App',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      localizationsDelegates: [
-        CustomLocalizationsDelegate(),
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate
-      ],
-      supportedLocales: [
-        const Locale('en', ''),
-        const Locale('es', ''),
-        const Locale('vi', ''),
-      ],
-      home: MyHomePage(),
+      title: 'INT3120 20',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Lesson 20'),
     );
   }
 }
 
-
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({
-    Key? key,
-  }) : super(key: key);
+  const MyHomePage({Key? key, required this.title}) : super(key: key);
+
+  final String title;
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(CustomLocalizations.of(context)!.title),
+        title: Text(widget.title),
       ),
       body: Center(
-        child: Text(
-          CustomLocalizations.of(context)!.message,
-          style: Theme.of(context).textTheme.headline5,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+          ],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
       ),
     );
   }
-}
-
-class CustomLocalizations {
-  static Future<CustomLocalizations> load(Locale locale) {
-    final String name =
-    locale.countryCode!.isEmpty ? locale.languageCode : locale.toString();
-    final String localeName = Intl.canonicalizedLocale(name);
-
-    return initializeMessages(localeName).then((_) {
-      Intl.defaultLocale = localeName;
-      return CustomLocalizations();
-    });
-  }
-
-  static CustomLocalizations? of(BuildContext context) {
-    return Localizations.of<CustomLocalizations>(context, CustomLocalizations);
-  }
-
-  String get title {
-    return Intl.message(
-      'Lesson 19',
-      name: 'title',
-      desc: 'Title for the Lesson19 application',
-    );
-  }
-
-  String get message {
-    return Intl.message(
-      'Hello World',
-      name: 'message',
-      desc: 'Message for the Lesson19 application',
-    );
-  }
-}
-
-class CustomLocalizationsDelegate
-    extends LocalizationsDelegate<CustomLocalizations> {
-  const CustomLocalizationsDelegate();
-
-  @override
-  bool isSupported(Locale locale) => ['en', 'vi'].contains(locale.languageCode);
-
-  @override
-  Future<CustomLocalizations> load(Locale locale) {
-    return CustomLocalizations.load(locale);
-  }
-
-  @override
-  bool shouldReload(CustomLocalizationsDelegate old) => false;
 }
