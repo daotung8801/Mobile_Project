@@ -57,8 +57,10 @@ Task 13: Animation
   
   
 Task 14: Code with native Android
+- Part 1:
 ![image](https://user-images.githubusercontent.com/56082813/157423476-45ffd8f1-c155-4f39-a87b-b0cf52bdb5e8.png)
 
+- Part 2:
 ![image](https://user-images.githubusercontent.com/56082813/157423518-f18cb95b-047b-4721-99a9-8aafa403219a.png)
 
 
