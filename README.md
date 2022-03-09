@@ -43,17 +43,57 @@ Task 10: Statefulwidget in Flutter
 Task 11: ScopedModel in Flutter
 ![image](https://user-images.githubusercontent.com/56082813/155703926-4277f645-4aee-41c1-b210-6e28684a7031.png)
 
+
 ## Week 2:
-Task12: Navigator and Routing
+
+Task 12: Navigator and Routing
 ![image](https://user-images.githubusercontent.com/56082813/156707449-be0489bc-b2fe-4562-b44b-23b30aa28e63.png)
 
 ![image](https://user-images.githubusercontent.com/56082813/156707504-e3836c45-dd90-48e9-82a4-29a29b4d31fd.png)
 
 
-Task13: Animation
+Task 13: Animation
 ![image](https://user-images.githubusercontent.com/56082813/156707605-be55b456-398f-4051-aaa3-89adc8eb31db.png)
+  
+  
+Task 14: Code with native Android
+![image](https://user-images.githubusercontent.com/56082813/157423476-45ffd8f1-c155-4f39-a87b-b0cf52bdb5e8.png)
 
-Task14: Code with native Android
+![image](https://user-images.githubusercontent.com/56082813/157423518-f18cb95b-047b-4721-99a9-8aafa403219a.png)
 
 
-Task16: Package
+Task 16: Package
+![image](https://user-images.githubusercontent.com/56082813/157423611-f18c6e73-7f9e-4ba5-a7d9-246a1f3a6db5.png)
+
+![image](https://user-images.githubusercontent.com/56082813/157423653-c7cb0e77-1de8-429d-a126-c64bef4b5450.png)
+
+
+## Week 3:
+Task 17: Rest API
+![image](https://user-images.githubusercontent.com/56082813/157423833-8662b09f-85c3-4fd9-9868-baa1ed490f2c.png)
+
+![image](https://user-images.githubusercontent.com/56082813/157423874-16400e31-d3a0-415c-9945-09994094e044.png)
+
+
+Task 19: Change language
+
+
+
+Task 20: Debugging
+![image](https://user-images.githubusercontent.com/56082813/157424376-b3ad7697-1103-4c9c-b5e8-2f0d2f084fda.png)
+
+
+Task 21: Export app in Flutter
+![image](https://user-images.githubusercontent.com/56082813/157424584-0a7fc98c-b6ae-4a9a-8570-e809b9dccb2c.png)
+
+
+Task 22: Development tools
+- DevTools:
+
+- Flutter SDK:
+![image](https://user-images.githubusercontent.com/56082813/157425031-4d9575c7-2d3c-46f2-8dc0-54e736ec5144.png)
+
+![image](https://user-images.githubusercontent.com/56082813/157425081-c02e841b-ffb0-4d5b-b2dd-23d81d024f4d.png)
+
+- Flutter Inspector:
+![image](https://user-images.githubusercontent.com/56082813/157425155-df3fbb75-a2db-468a-8e1d-044149f55952.png)
