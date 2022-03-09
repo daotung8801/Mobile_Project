@@ -76,7 +76,9 @@ Task 17: Rest API
 
 
 Task 19: Change language
+![image](https://user-images.githubusercontent.com/56082813/157425975-e9696037-f8ab-49b0-b5aa-eaf6e1f60a17.png)
 
+![image](https://user-images.githubusercontent.com/56082813/157425999-503fd86b-5641-453c-8b59-5fb4d0178c7d.png)
 
 
 Task 20: Debugging
@@ -89,6 +91,7 @@ Task 21: Export app in Flutter
 
 Task 22: Development tools
 - DevTools:
+![image](https://user-images.githubusercontent.com/56082813/157426054-f21a9d2a-61d3-4952-b2ad-31adb32fae14.png)
 
 - Flutter SDK:
 ![image](https://user-images.githubusercontent.com/56082813/157425031-4d9575c7-2d3c-46f2-8dc0-54e736ec5144.png)
